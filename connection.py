@@ -1,6 +1,7 @@
 import oracledb as orc
 def connection():
-    con = orc.connect("System/Dhone_518@localhost/orcl")
+    con = orc.connect("Username/Password@DNS")
     print("connected")
     return con
+
 connection()
